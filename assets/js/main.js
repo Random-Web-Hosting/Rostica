@@ -295,18 +295,14 @@
 
 	//Isotope Filter
 
-	$(".port-menu li").on("click", function () {
-		var selector = $(this).attr("data-filter");
+	// $(".port-menu li").on("click", function () {
+	// 	var selector = $(this).attr("data-filter");
 
-		$(".port-menu li").removeClass("active");
+	// 	$(".port-menu li").removeClass("active");
 
-		$(this).addClass("active");
+	// 	$(this).addClass("active");
 
-		$(".portfolio-list").isotope({
-			filter: selector,
-			percentPosition: true,
-		});
-	});
+	// });
 
 	//Counter Up
 
@@ -370,11 +366,11 @@
 	}, 200);
 
 
-	$(window).on('load', function () {
-		$(".portfolio-list").isotope({
-			layoutMode: "masonry",
-		});
-	});
+	// $(window).on('load', function () {
+	// 	$(".portfolio-list").isotope({
+	// 		layoutMode: "masonry",
+	// 	});
+	// });
 
 	jQuery(window).on("load", function () {
 		jQuery(".site-preloader-wrap, .slide-preloader-wrap").fadeOut(1000);

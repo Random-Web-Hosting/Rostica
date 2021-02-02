@@ -324,8 +324,8 @@
   top: 0px;
   width: 100%;
   height: 100%;
-  background: #000000;
-  opacity: 0.8;
+  background: #252531;
+  opacity: 0.85;
   position: absolute;
 }
 
@@ -360,10 +360,10 @@
 .page-title .bread-crumb {
   position: relative;
   float: right;
-  background: rgba(0, 0, 0, 0.5);
+  background: #252531;
   padding: 14px 30px;
   border-radius: 30px 0 0px 30px;
-  border: 1px dashed #fff;
+  border: 1px solid #fff;
   border-right: none;
 }
 .page-title .bread-crumb:before {
@@ -373,8 +373,8 @@
   height: 60px;
   top: -1px;
   content: "";
-  background: rgba(0, 0, 0, 0.5);
-  border: 1px dashed #fff;
+  background: #252531;
+  border: 1px solid #fff;
   border-right: none;
   border-left: none;
 }
@@ -648,7 +648,79 @@
 .section-title h6 {
   color: #222;
 }
-.choose-us-icon i {
-  font-size: 55px;
-  color: #ffb300;
+@media (max-width: 992px) {
+  .featured-process-area {
+    margin-top: 48%;
+  }
+  .header-right-content h4 {
+    display: none;
+  }
+}
+@media (max-width: 886px) {
+  .featured-process-area {
+    margin-top: 68%;
+  }
+}
+@media (max-width: 767px) {
+  .single-slide-item h1 {
+    font-size: 66px;
+    line-height: 66px;
+  }
+  .section-title h2 {
+    font-size: 38px;
+  }
+  .achievement-area {
+    padding: 12% 0;
+  }
+  .int_process_wrapper {
+    padding: 12% 0;
+  }
+  .int_process_wrapper .int_heading {
+    margin-top: 44px;
+    margin-bottom: 44px;
+  }
+  .process_box_wrapper .process_box {
+    padding: 8%;
+  }
+  .int_testimonial_style3 {
+    padding: 15% 0 15px;
+  }
+  .footer_box_wrapper .footer_box .int_logo {
+    margin-bottom: 12px;
+  }
+  footer {
+    padding: 12% 0;
+  }
+  p.privacy {
+    margin-top: 12px;
+    text-align: center;
+  }
+  .page-title {
+    padding: 35% 0;
+  }
+  .section-title h2 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+  #info-2 .info-content-area {
+    padding-left: 0;
+  }
+  .choose-us-area {
+    background-image: url(../images/achievement.jpg);
+    background-size: cover;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+    padding: 12%;
+  }
+  .choose-us-area:before {
+    opacity: 0.9;
+  }
+  .featured-process-area {
+    margin-top: 3%;
+  }
+  .featured-process-area .process-grids .inner {
+    padding: 12% 40px;
+  }
 }

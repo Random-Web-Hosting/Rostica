@@ -27,8 +27,8 @@ Assigned to: Theme Forest
 			this.Search_bar_input();
 			this.Login_popup();
 			this.BannerSlider();
-			this.Isotop_gallery();
-			this.Magnific_popup();
+			// this.Isotop_gallery();
+			// this.Magnific_popup();
 			this.Team_slider();
 			this.Video_popup();
 			this.Progress_bar();
@@ -151,36 +151,36 @@ Assigned to: Theme Forest
 		
 		// Star isotop gallery js 
 		
-			Isotop_gallery: function() {
-				$(window).on('load', function(){
+			// Isotop_gallery: function() {
+			// 	$(window).on('load', function(){
 					
-					$('.gallery_grid').isotope({
-							itemSelector: '.grid-item',
-							filter: '*'
-					}); 
-					$('.int_project_gallery > .gallery_nav > ul > li').on('click', 'a', function() {
-						// filter button click
-						var filterValue = $( this ).attr('data-filter');
-						$('.gallery_grid').isotope({ filter: filterValue });
+			// 		$('.gallery_grid').isotope({
+			// 				itemSelector: '.grid-item',
+			// 				filter: '*'
+			// 		}); 
+			// 		$('.int_project_gallery > .gallery_nav > ul > li').on('click', 'a', function() {
+			// 			// filter button click
+			// 			var filterValue = $( this ).attr('data-filter');
+			// 			$('.gallery_grid').isotope({ filter: filterValue });
 
-						//active class added
-						$('a').removeClass('gallery_active');
-						$(this).addClass('gallery_active');
-					});
+			// 			//active class added
+			// 			$('a').removeClass('gallery_active');
+			// 			$(this).addClass('gallery_active');
+			// 		});
 					
 					
 					
-				});
+			// 	});
 				
-				$('#loadMore').on('click', function(){
-					$('.int_view_gallery').addClass('int_view_gallery_view');
-					$('.gallery_grid').isotope({
-						itemSelector: '.grid-item',
-						filter: '*'
-					}); 
+			// 	$('#loadMore').on('click', function(){
+			// 		$('.int_view_gallery').addClass('int_view_gallery_view');
+			// 		$('.gallery_grid').isotope({
+			// 			itemSelector: '.grid-item',
+			// 			filter: '*'
+			// 		}); 
 					
-				});
-			},
+			// 	});
+			// },
 		
 		// Star isotop gallery js 
 		
