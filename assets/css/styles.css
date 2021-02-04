@@ -655,6 +655,9 @@
   .header-right-content h4 {
     display: none;
   }
+  .portfolio-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 886px) {
   .featured-process-area {
@@ -722,5 +725,8 @@
   }
   .featured-process-area .process-grids .inner {
     padding: 12% 40px;
+  }
+  .portfolio-list {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
